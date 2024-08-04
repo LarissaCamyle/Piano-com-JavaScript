@@ -1,0 +1,7 @@
+@import url(/styles/piano.css);
+@import url(/styles/painel.css);
+
+html, body{
+    background:  #6e70ff;
+}
+

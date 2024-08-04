@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Piano</title>
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <main class="piano">
+        <section class="piano-img">
+            <img class="img" src="img/teclado.png" >
+            <div class="piano-fundo">
+                <div class="piano-teclas">
+                    <div class="tecla tecla1"></div>
+                    <div class="tecla tecla2">
+                        <div class="tecla-preta preta1"></div>
+                    </div>
+                    <div class="tecla tecla3">
+                        <div class="tecla-preta preta2"></div>
+                    </div>
+                    <div class="tecla tecla4"></div>
+                    <div class="tecla tecla5">
+                        <div class="tecla-preta preta3"></div>
+                    </div>
+                    <div class="tecla tecla6">
+                        <div class="tecla-preta preta4"></div>
+                    </div>
+                    <div class="tecla tecla7">
+                        <div class="tecla-preta preta5"></div>
+                    </div>
+                    <div class="tecla tecla8"></div>
+                    <div class="tecla tecla9">
+                        <div class="tecla-preta preta6"></div>
+                    </div>
+                    <div class="tecla tecla10">
+                        <div class="tecla-preta preta7"></div>
+                    </div>
+                    <div class="tecla tecla11"></div>
+                    <div class="tecla tecla12"></div>
+                </div>
+                <div class="painel-sons">
+                    <div class="painel1">
+                        <div class="painel-tecla som-painel1 som1"></div>
+                        <div class="painel-tecla som-painel1 som2"></div>
+                        <div class="painel-tecla som-painel1 som3"></div>
+                        <div class="painel-tecla som-painel1 som4"></div>
+                        <div class="painel-tecla som-painel1 som5"></div>
+                        <div class="painel-tecla som-painel1 som6"></div>
+                        <div class="painel-tecla som-painel1 som7"></div>
+                    </div>
+                    <div class="painel2">
+                        <div class="painel-tecla som-painel2 som8"></div>
+                        <div class="painel-tecla som-painel2 som9"></div>
+                        <div class="painel-tecla som-painel2 som10"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!--piano teclas brancas-->
+     <audio src="sounds/piano/316898__jaz_the_man_2__do.wav" id="som_tecla1"></audio>
+     <audio src="sounds/piano/316899__jaz_the_man_2__do-stretched.wav" id="som_tecla2"></audio>
+     <audio src="sounds/piano/316900__jaz_the_man_2__do-stretched-octave.wav" id="som_tecla3"></audio>
+     <audio src="sounds/piano/316901__jaz_the_man_2__do-octave.wav" id="som_tecla4"></audio>
+     <audio src="sounds/piano/316902__jaz_the_man_2__la.wav" id="som_tecla5"></audio>
+     <audio src="sounds/piano/316903__jaz_the_man_2__la-stretched.wav" id="som_tecla6"></audio>
+     <audio src="sounds/piano/316904__jaz_the_man_2__fa.wav" id="som_tecla7"></audio>
+     <audio src="sounds/piano/316905__jaz_the_man_2__fa-stretched.wav" id="som_tecla8"></audio>
+     <audio src="sounds/piano/316906__jaz_the_man_2__mi.wav" id="som_tecla9"></audio>
+     <audio src="sounds/piano/316907__jaz_the_man_2__mi-stretched.wav" id="som_tecla10"></audio>
+     <audio src="sounds/piano/316908__jaz_the_man_2__re.wav" id="som_tecla11"></audio>
+     <audio src="sounds/piano/316909__jaz_the_man_2__re-stretched.wav" id="som_tecla12"></audio>
+    <!--piano teclas pretas-->
+    <audio src="sounds/piano/316910__jaz_the_man_2__si-stretched.wav" id="som_preta1"></audio>
+    <audio src="sounds/piano/316911__jaz_the_man_2__sol-stretched.wav" id="som_preta2"></audio>
+    <audio src="sounds/piano/316912__jaz_the_man_2__sol.wav" id="som_preta3"></audio>
+    <audio src="sounds/piano/316913__jaz_the_man_2__si.wav" id="som_preta4"></audio>
+    <audio src="sounds/piano/316914__jaz_the_man_2__si.wav" id="som_preta5"></audio>
+    <audio src="sounds/piano/316915__jaz_the_man_2__sol.wav" id="som_preta6"></audio>
+    <audio src="sounds/piano/316916__jaz_the_man_2__sol-stretched.wav" id="som_preta7"></audio>
+    <!--sons painel-->
+    <audio src="sounds/outro/keyq.wav" id="tecla-som1"></audio>
+    <audio src="sounds/outro/keyw.wav" id="tecla-som2"></audio>
+    <audio src="sounds/outro/keye.wav" id="tecla-som3"></audio>
+    <audio src="sounds/outro/keya.wav" id="tecla-som4"></audio>
+    <audio src="sounds/outro/keys.wav" id="tecla-som5"></audio>
+    <audio src="sounds/outro/keyd.wav" id="tecla-som6"></audio>
+    <audio src="sounds/outro/keyz.wav" id="tecla-som7"></audio>
+    <audio src="sounds/outro/keyx.wav" id="tecla-som8"></audio>
+    <audio src="sounds/outro/keyc.wav" id="tecla-som9"></audio>
+    <audio src="sounds/outro/sfx-pop.mp3" id="tecla-som10"></audio>
+
+     <script src="main.js"></script>
+</body>
+</html>

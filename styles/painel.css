@@ -1,0 +1,45 @@
+.painel-sons{
+    position: absolute;
+    z-index: 4;
+    width: 83%;
+    height: 8%;
+    top:0;
+    margin-top: 26%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5%;
+}
+
+.painel1{
+    width: 45%;
+    height: 100%;
+    margin-left: 9%;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+.painel2{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.som-painel1{
+    height: 100%;
+    width: 17%;
+}
+
+.som-painel2{
+    height: 100%;
+    width: 33%;
+}
+
+@media screen and (min-width: 700px) {
+    .painel-sons{
+        width: 60%;
+        margin-top: 19%;
+    }
+}

@@ -1,0 +1,105 @@
+.piano{
+    width: 100%;
+    height: 100%;
+}
+
+.piano-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    position: relative;
+}
+
+.img{
+    width: 95%;
+    border-radius: 14px;
+    box-shadow: 2px 5px 4px #272625;
+}
+
+.piano-fundo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.piano-teclas{
+    width: 91.5%;
+    height: 33.5%;
+    border-radius: 3px;
+    position:absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: #272625 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tecla{
+    border-radius: 5px;
+    height: 92%;
+    width: 9%;
+    background: linear-gradient(to bottom, rgb(245, 245, 245), white);
+    margin: 5px;
+    box-shadow: 2px 1px 1px 2px gray;
+    
+}
+
+.tecla-branca-ativa{
+    background: linear-gradient(to bottom, rgb(255, 252, 51),rgb(255, 253, 128));
+    margin: 5px;
+    box-shadow: 2px 1px 1px 2px gray;
+}
+
+.tecla-preta{
+    border-radius: 6px;
+    margin-top: 0%;
+    height: 70%;
+    width: 5%;
+    background: linear-gradient(to bottom, #1a1919, #292929);
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    margin-left: 5%;
+    box-shadow: 2px 1px 1px 1px rgba(68, 68, 68, 0.856);
+}
+
+.tecla-preta-ativa {
+    background: linear-gradient(to bottom, rgb(94, 0, 0), rgb(173, 3, 3));
+    box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.5);
+    z-index: 3;
+}
+
+@media screen and (max-width: 450px) {
+    .piano-img{
+        margin-top: 50%;
+    }
+    
+    .img{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .piano-img{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .img{
+        width: 70%;
+    }
+    .piano-teclas{
+        width: 67.5%;
+    }
+    .piano-img{
+        margin-top: 7%;
+    }
+}
+
