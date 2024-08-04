@@ -5,3 +5,9 @@ html, body{
     background:  #6e70ff;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}
+
